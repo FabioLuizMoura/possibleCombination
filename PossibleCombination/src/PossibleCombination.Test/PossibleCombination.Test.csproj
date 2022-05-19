@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PossibleCombination.Domain\PossibleCombination.Domain.csproj" />
+    <ProjectReference Include="..\PossibleCombination.Infra\PossibleCombination.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
