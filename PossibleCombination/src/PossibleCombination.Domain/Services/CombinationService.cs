@@ -1,5 +1,4 @@
-﻿using Flunt.Notifications;
-using PossibleCombination.Domain.IRepositories;
+﻿using PossibleCombination.Domain.IRepositories;
 using PossibleCombination.Domain.Models;
 using PossibleCombination.Domain.Services.Interfaces;
 using System.Collections.Generic;
@@ -8,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PossibleCombination.Domain.Services
 {
-    public class CombinationService : Notifiable<Notification>, ICombinationService 
+    public class CombinationService : ICombinationService 
     {
         private int value;
         private int[] ordenado;
@@ -16,7 +15,7 @@ namespace PossibleCombination.Domain.Services
         private readonly ICombinationRepository _repository;
         public CombinationService(ICombinationRepository repository) => _repository = repository;
 
-        public async Task<IList<int>> Generate(Combination combination)
+        public override async Task<IList<int>> Generate(Combination combination)
         {
             combination.Validate();
             if (!combination.IsValid)

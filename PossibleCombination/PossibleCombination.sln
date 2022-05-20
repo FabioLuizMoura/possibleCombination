@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PossibleCombination", "PossibleCombination\PossibleCombination.csproj", "{6929307F-8C83-4B89-899E-BB56A9330356}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PossibleCombination.API", "src\PossibleCombination\PossibleCombination.API.csproj", "{6929307F-8C83-4B89-899E-BB56A9330356}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PossibleCombination.Domain", "src\PossibleCombination.Domain\PossibleCombination.Domain.csproj", "{D9A7BC5C-9707-4450-916F-3292F356C0FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PossibleCombination.Domain", "src\PossibleCombination.Domain\PossibleCombination.Domain.csproj", "{D9A7BC5C-9707-4450-916F-3292F356C0FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PossibleCombination.Infra", "src\PossibleCombination.Infra\PossibleCombination.Infra.csproj", "{9C63DD46-05F9-4CFD-960C-5B987F124F8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PossibleCombination.Infra", "src\PossibleCombination.Infra\PossibleCombination.Infra.csproj", "{9C63DD46-05F9-4CFD-960C-5B987F124F8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PossibleCombination.Test", "src\PossibleCombination.Test\PossibleCombination.Test.csproj", "{B985FCBE-8E90-443B-9A41-6A6A11975E11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PossibleCombination.Test", "src\PossibleCombination.Test\PossibleCombination.Test.csproj", "{10192565-BCF4-4507-857F-36E00B6B76B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{9C63DD46-05F9-4CFD-960C-5B987F124F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C63DD46-05F9-4CFD-960C-5B987F124F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C63DD46-05F9-4CFD-960C-5B987F124F8F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B985FCBE-8E90-443B-9A41-6A6A11975E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B985FCBE-8E90-443B-9A41-6A6A11975E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B985FCBE-8E90-443B-9A41-6A6A11975E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B985FCBE-8E90-443B-9A41-6A6A11975E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10192565-BCF4-4507-857F-36E00B6B76B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10192565-BCF4-4507-857F-36E00B6B76B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10192565-BCF4-4507-857F-36E00B6B76B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10192565-BCF4-4507-857F-36E00B6B76B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

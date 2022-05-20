@@ -9,8 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\PossibleCombination.Domain\PossibleCombination.Domain.csproj" />
-    <ProjectReference Include="..\src\PossibleCombination.Infra\PossibleCombination.Infra.csproj" />
+    <ProjectReference Include="..\PossibleCombination.Domain\PossibleCombination.Domain.csproj" />
+    <ProjectReference Include="..\PossibleCombination.Infra\PossibleCombination.Infra.csproj" />
   </ItemGroup>
 
 </Project>

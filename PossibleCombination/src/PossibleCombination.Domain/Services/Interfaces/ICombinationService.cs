@@ -1,11 +1,12 @@
-﻿using PossibleCombination.Domain.Models;
+﻿using Flunt.Notifications;
+using PossibleCombination.Domain.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace PossibleCombination.Domain.Services.Interfaces
 {
-    public interface ICombinationService
+    public abstract class ICombinationService : Notifiable<Notification>
     {
-        public Task<IList<int>> Generate(Combination combination);
+        public abstract Task<IList<int>> Generate(Combination combination);
     }
 }
