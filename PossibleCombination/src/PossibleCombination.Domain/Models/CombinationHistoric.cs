@@ -8,8 +8,11 @@ namespace PossibleCombination.Domain.Models
         public DateTime SearchDate { get; set; }
         public string Combination { get; set; }
 
-        public CombinationHistoric(Combination combination) 
-            => Combination = JsonConvert.SerializeObject(combination);
+        public CombinationHistoric(Combination combination)
+        {
+            SearchDate = DateTime.Now;
+            Combination = JsonConvert.SerializeObject(combination);
+        }
 
         public static implicit operator CombinationHistoric(Combination saveCompany) => new(saveCompany);
     }
